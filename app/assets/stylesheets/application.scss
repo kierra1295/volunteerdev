@@ -29,3 +29,12 @@
 @import "responsive/*";
 
 @import "pages/*";
+
+
+.alert-alert {
+    @extend .alert-warning;
+  }
+  
+  .alert-notice {
+    @extend .alert-info;
+  }
