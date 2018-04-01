@@ -24,7 +24,7 @@ nav {
   background: $navbarColor !important;
 	border: none;
 	a {
-	  color: white !important;
+	  color: black !important;
 	}
 }
 
@@ -48,7 +48,7 @@ nav {
 
 .mobile-menu {
   i {
-    color: white;
+    color: black;
   }
   ul {
     padding: 0px;
@@ -58,21 +58,21 @@ nav {
     padding: 10px 0px 10px 25px !important;
   }
   a:hover {
-    background: white !important;
-    color: black !important;
+    background: black !important;
+    color: white !important;
     i {
-      color: black;
+      color: white;
     }
   }
 }
 
 .icon-bar {
-  background-color: white !important;
+  background-color: black !important;
 }
 
 .active a {
   background: $navbarColor !important;
-  border-bottom: solid 5px white;
+  border-bottom: solid 5px black;
 }
 
 .dropdown-toggle, .dropdown-menu {
@@ -232,4 +232,49 @@ nav {
   top: 0;
   right: 5px;
   background: #3F4EBF;
+}
+
+.box-shadow {
+  box-shadow: 0 .25rem .75rem rgba(0, 0, 0, .05);
+}
+
+#login-dp{
+    min-width: 250px;
+    padding: 14px 14px 0;
+    overflow:hidden;
+    background-color:rgba(255,255,255,.8);
+}
+#login-dp .help-block{
+    font-size:12px    
+}
+#login-dp .bottom{
+    background-color:rgba(255,255,255,.8);
+    border-top:1px solid #ddd;
+    clear:both;
+    padding:14px;
+}
+#login-dp .social-buttons{
+    margin:12px 0    
+}
+#login-dp .social-buttons a{
+    width: 49%;
+}
+#login-dp .form-group {
+    margin-bottom: 10px;
+}
+.btn-fb{
+    color: #fff;
+    background-color:#3b5998;
+}
+.btn-fb:hover{
+    color: #fff;
+    background-color:#496ebc 
+}
+.btn-tw{
+    color: #fff;
+    background-color:#55acee;
+}
+.btn-tw:hover{
+    color: #fff;
+    background-color:#59b5fa;
 }
