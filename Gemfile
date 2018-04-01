@@ -38,6 +38,12 @@ gem 'jquery-rails'
 # gem 'capistrano-rails', group: :development
 gem 'devise'
 gem 'delayed_job_active_record'
+
+# Accesses
+gem 'remotipart', github: 'mshibuya/remotipart'
+gem 'rails_admin', '>= 1.0.0.rc'
+gem 'cancancan'
+
 group :development, :test do
   # Call 'byebug' anywhere in the code to stop execution and get a debugger console
   gem 'byebug', platforms: [:mri, :mingw, :x64_mingw]

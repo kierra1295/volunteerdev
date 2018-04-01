@@ -1,4 +1,6 @@
 Rails.application.routes.draw do
+  
+  #mount RailsAdmin::Engine => '/admin', as: 'rails_admin'
   get 'dashboard/index'
 
   devise_for :users, :controllers => {:registrations => "registrations"}
@@ -14,6 +16,8 @@ Rails.application.routes.draw do
   root to: 'pages#index'
   
   get 'dashboard' => 'dashboard#index', as: :dashboard
+
+  get 'reseller/profile'
 
 
 end
