@@ -15,5 +15,6 @@ module Volunteerdev
     # Application configuration should go into files in config/initializers
     # -- all .rb files in that directory are automatically loaded.
     config.action_controller.include_all_helpers = false
+    config.active_job.queue_adapter = :delayed_job
   end
 end
